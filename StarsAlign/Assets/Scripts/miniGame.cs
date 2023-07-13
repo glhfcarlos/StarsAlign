@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MiniGame : MonoBehaviour
 {
@@ -19,6 +20,9 @@ public class MiniGame : MonoBehaviour
     Color32 invisible = new Color32(4, 204, 0, 0);
     Color32 white = new Color32(255, 255, 255, 255);
     public float lightspeed; // so you can change the light order since light order was set to 1/2 sec
+    public string worldSceneName;
+   
+     
 
 
     void OnEnable() // get called everytime the pannel get enabled // a placed when we want to reset the game and start fresh  
@@ -62,7 +66,12 @@ public class MiniGame : MonoBehaviour
             Debug.Log("failed");
             won = true; 
             StartCoroutine(ColorBlink(green));
-        }
+        } 
+        if (level > 4)
+        {
+           Debug.Log("end");
+            SceneManager.LoadScene(worldSceneName); // Load the World scene if index is out of bounds
+         }
     }
 
     
