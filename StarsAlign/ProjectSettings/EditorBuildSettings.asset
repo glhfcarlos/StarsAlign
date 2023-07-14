@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Testing.unity
     guid: 46b0879685b444514922697eb07eaf1f
+  - enabled: 1
+    path: Assets/Scenes/popupplay.unity
+    guid: de91fb363648e4027b79e6cc7e352ade
   m_configObjects: {}

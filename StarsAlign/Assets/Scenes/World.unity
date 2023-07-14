@@ -1678,10 +1678,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1546292639}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2343c45318f74d8daf309f3c4aa34fe, type: 3}
+  m_Script: {fileID: 11500000, guid: dd76024ed3ea9456aa2ec129a579eb44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: MemoGame
+  SceneName: popupplay
 --- !u!1 &1670119323
 GameObject:
   m_ObjectHideFlags: 0
@@ -1893,7 +1893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2343c45318f74d8daf309f3c4aa34fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: MemoGame
+  sceneToLoad: popupplay
 --- !u!114 &1670119331
 MonoBehaviour:
   m_ObjectHideFlags: 0
