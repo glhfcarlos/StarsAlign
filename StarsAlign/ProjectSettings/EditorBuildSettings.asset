@@ -10,14 +10,11 @@ EditorBuildSettings:
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/MemoGame.unity
-    guid: 9ae03bf6aa164476d9f14cbc85a7cb3a
+    guid: 8ff6cd9dfffef4804b428d81b0f8273f
   - enabled: 1
     path: Assets/Scenes/StartScreen.unity
     guid: 3bd9e027cac624a4ca161ed7284b7926
   - enabled: 0
     path: Assets/Scenes/Testing.unity
     guid: 46b0879685b444514922697eb07eaf1f
-  - enabled: 1
-    path: Assets/Scenes/buttonpopup.unity
-    guid: d1f6d861454474406abce422b10e8cb7
   m_configObjects: {}
