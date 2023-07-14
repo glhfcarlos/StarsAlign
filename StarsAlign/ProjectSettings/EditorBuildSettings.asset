@@ -20,4 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BalanceGame.unity
     guid: 93bbfc12c9fc74cdcad8429d9fee2b23
+    path: Assets/Scenes/buttonpopup.unity
+    guid: d1f6d861454474406abce422b10e8cb7
   m_configObjects: {}
