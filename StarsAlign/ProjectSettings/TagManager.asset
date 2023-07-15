@@ -8,6 +8,11 @@ TagManager:
   - CheckPoint
   - Checkpoint
   - Star
+  - pStar
+  - loverStar
+  - pSpawn
+  - loSpawnn
+  - loSpawn
   layers:
   - Default
   - TransparentFX
