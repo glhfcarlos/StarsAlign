@@ -1410,7 +1410,8 @@ MonoBehaviour:
   - {fileID: 4076848540225145972}
   - {fileID: 1181515863197635168}
   lightspeed: 0.3
-  worldSceneName: World
+  worldSceneName: Winpopup
+  failSceneName: failscene
 --- !u!1 &7774602953459172674
 GameObject:
   m_ObjectHideFlags: 0

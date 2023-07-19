@@ -21,8 +21,10 @@ public class MiniGame : MonoBehaviour
     Color32 white = new Color32(255, 255, 255, 255);
     public float lightspeed; // so you can change the light order since light order was set to 1/2 sec
     public string worldSceneName;
-   
-     
+    public string failSceneName;
+
+
+
 
 
     void OnEnable() // get called everytime the pannel get enabled // a placed when we want to reset the game and start fresh  
@@ -53,7 +55,9 @@ public class MiniGame : MonoBehaviour
             Debug.Log("failed"); // else you failed 
             won = false;
             passed = false;
-            StartCoroutine(ColorBlink(red));// this calls the fucntion for it to blink red for the user to know they failed 
+            StartCoroutine(ColorBlink(red));// this calls the fucntion for it to blink red for the user to know they failed
+            Debug.Log("end");
+            SceneManager.LoadScene(failSceneName);
         }
         if (buttonsclicked == level && passed == true && buttonsclicked != 5)
         {
