@@ -50,6 +50,11 @@ public class PlayerCheckPointSystem : MonoBehaviour
     {
         transform.position = startingPosition;
     }
+    public static void ResetCheckpointPosition()
+{
+    checkpointPosition = Vector3.zero; // Or you can set it to the starting position make sure to refrence it 
+}
+
 }
 
 
