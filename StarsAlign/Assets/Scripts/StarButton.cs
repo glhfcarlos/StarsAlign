@@ -3,27 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
 public class starbutton : MonoBehaviour
 {
     public Animator transition;
     public float transitionTime = 1f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-
     public void OnButtonPressed()
     {
+        PlayerCheckPointSystem.ResetCheckpointPosition(); // Reset checkpoints here
+
         LoadNextLevel();
     }
 
@@ -41,3 +29,5 @@ public class starbutton : MonoBehaviour
         SceneManager.LoadScene(levelIndex);
     }
 }
+
+
