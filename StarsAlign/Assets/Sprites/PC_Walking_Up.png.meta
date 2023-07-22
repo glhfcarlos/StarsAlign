@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6aa9756a84fff4093961763e2e41b75c
+guid: 41ab997dea96c4d46a254fe2d7d49919
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -107,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PC_Walking_Right_0
+      name: PC_Walking_Up_0
       rect:
         serializedVersion: 2
         x: 0
@@ -121,14 +121,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fcb37ec6a6944bebb07d972075ab3e9
-      internalID: -875932064
+      spriteID: f561851be8dbf46bab3568b86e79027a
+      internalID: 1716725313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC_Walking_Right_1
+      name: PC_Walking_Up_1
       rect:
         serializedVersion: 2
         x: 512
@@ -142,14 +142,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fe3583d9252a490ba4e48b285e4616c
-      internalID: -661133805
+      spriteID: 21edf4500c32d407a82c3f29dd84c22d
+      internalID: -1195753131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC_Walking_Right_2
+      name: PC_Walking_Up_2
       rect:
         serializedVersion: 2
         x: 1024
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 355dec241b3fc45549a4f14bbe24a635
-      internalID: -1875737095
+      spriteID: 04d33558ac3554bf9899af2e92266061
+      internalID: 1158452646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC_Walking_Right_3
+      name: PC_Walking_Up_3
       rect:
         serializedVersion: 2
         x: 1536
@@ -184,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32ee5e2fb23674cceb5bfafc362ceca1
-      internalID: -77783623
+      spriteID: a86431e493e7f432aa3a3de0a1487b7f
+      internalID: -1602452405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC_Walking_Right_4
+      name: PC_Walking_Up_4
       rect:
         serializedVersion: 2
         x: 0
@@ -205,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c98bb3693d07147ff882efd909c13706
-      internalID: -1513066596
+      spriteID: fb78022357e5d456092d975adc256cdf
+      internalID: -519017653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC_Walking_Right_5
+      name: PC_Walking_Up_5
       rect:
         serializedVersion: 2
         x: 512
@@ -226,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28b46a9c65fba4ed9b69f96f05e0c1da
-      internalID: 416620145
+      spriteID: 9011e30469a364227a5654146358ae79
+      internalID: -820705130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC_Walking_Right_6
+      name: PC_Walking_Up_6
       rect:
         serializedVersion: 2
         x: 1024
@@ -247,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02edc7f836f5c48caad8fa96a6845633
-      internalID: -36801405
+      spriteID: 2cb0ba620201142b1a599918a612db51
+      internalID: -1040107235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC_Walking_Right_7
+      name: PC_Walking_Up_7
       rect:
         serializedVersion: 2
         x: 1536
@@ -268,71 +268,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f97d044560ee4584a553be4836be0ef
-      internalID: 1780803988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC_Walking_Right_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 512
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4234db0d6c534a9ea1a4a6268d5ff21
-      internalID: 214380143
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC_Walking_Right_9
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 512
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5e51d4a622d847bc825549375d412a2
-      internalID: -119361877
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC_Walking_Right_10
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 512
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f55f6dc9751dc487896f15e0bf4d3dc9
-      internalID: -38280377
+      spriteID: 652ac7468385043a7bf272b11ed53f9a
+      internalID: 1432303268
       vertices: []
       indices: 
       edges: []
@@ -348,17 +285,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PC_Walking_Right_0: -875932064
-      PC_Walking_Right_1: -661133805
-      PC_Walking_Right_10: -38280377
-      PC_Walking_Right_2: -1875737095
-      PC_Walking_Right_3: -77783623
-      PC_Walking_Right_4: -1513066596
-      PC_Walking_Right_5: 416620145
-      PC_Walking_Right_6: -36801405
-      PC_Walking_Right_7: 1780803988
-      PC_Walking_Right_8: 214380143
-      PC_Walking_Right_9: -119361877
+      PC_Walking_Up_0: 1716725313
+      PC_Walking_Up_1: -1195753131
+      PC_Walking_Up_2: 1158452646
+      PC_Walking_Up_3: -1602452405
+      PC_Walking_Up_4: -519017653
+      PC_Walking_Up_5: -820705130
+      PC_Walking_Up_6: -1040107235
+      PC_Walking_Up_7: 1432303268
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

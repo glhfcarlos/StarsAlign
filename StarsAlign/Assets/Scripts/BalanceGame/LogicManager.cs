@@ -10,13 +10,15 @@ public class LogicManager : MonoBehaviour
     public Text timerText; 
     public GameObject playerStars; 
     public GameObject loverStars; 
-    public string nextScene; 
-    public float currTime = 0; 
-    public bool timerRunning = false; 
-    public int level = 0; 
+    private float currTime = 0; 
+    private bool timerRunning = false; 
+    private int level = 0; 
     private int maxLevel = 4; 
     private bool passed = false; 
-    public bool won = false; 
+    private bool won = false; 
+
+    public string winScene; 
+    public string lostScene; 
     // public SpawnStars spawnStars; 
     // bool isPlaying = false; 
 
@@ -66,18 +68,18 @@ public class LogicManager : MonoBehaviour
     void score() {
 
       if(balance.equalAmountStars() == true) {
-        Debug.Log("correct amount with in the time"); 
+        // Debug.Log("correct amount with in the time"); 
         passed = true;  
       } else {
         won = false; 
         passed = false; 
-        Debug.Log("You failed and lost"); 
+        // Debug.Log("You failed and lost"); 
 
-        // Maybe this is where the UI can ComeIn for the new scene here to show choices 
+        SceneManager.LoadScene(lostScene);
       }
 
       if(passed == true && level != maxLevel) {
-        Debug.Log("You passed level " + level);
+        // Debug.Log("You passed level " + level);
         level ++;
         passed = false; 
         currTime = 10; 
@@ -95,7 +97,7 @@ public class LogicManager : MonoBehaviour
       }
       if(level >= maxLevel) {
             Debug.Log("end");
-            SceneManager.LoadScene(nextScene);
+            SceneManager.LoadScene(winScene);
       }
     }
 }

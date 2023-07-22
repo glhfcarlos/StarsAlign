@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -111,9 +111,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1365.3333
-        width: 682.6667
-        height: 682.6667
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,8 +121,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d49c9ffda13ba494facd9cbe5b2334c4
-      internalID: -1633749203
+      spriteID: d7ca3431607164549a7918fe97209aec
+      internalID: 1933966155
       vertices: []
       indices: 
       edges: []
@@ -131,10 +131,10 @@ TextureImporter:
       name: PC_Walking_Left_1
       rect:
         serializedVersion: 2
-        x: 682
-        y: 1365.3333
-        width: 682.6667
-        height: 682.6667
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,8 +142,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12d8c778ab62e4ccaac96469be4ac984
-      internalID: 1654549734
+      spriteID: 106293ac376b3470dad46ae32e631add
+      internalID: -1775571539
       vertices: []
       indices: 
       edges: []
@@ -152,10 +152,10 @@ TextureImporter:
       name: PC_Walking_Left_2
       rect:
         serializedVersion: 2
-        x: 1364
-        y: 1365.3333
-        width: 682.6667
-        height: 682.6667
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,8 +163,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6527d4a52c5d14b0397fca0d97e65193
-      internalID: -207747446
+      spriteID: 0522560ce68d04a6682f664a7b769dce
+      internalID: -742363689
       vertices: []
       indices: 
       edges: []
@@ -173,10 +173,10 @@ TextureImporter:
       name: PC_Walking_Left_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 683.3333
-        width: 682.6667
-        height: 682.6667
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 232cd8d5701ff4291924b9857f65ed7c
-      internalID: 1658347055
+      spriteID: 6cc1194a27c00435eb371cf19fbac5f9
+      internalID: 477479091
       vertices: []
       indices: 
       edges: []
@@ -194,10 +194,10 @@ TextureImporter:
       name: PC_Walking_Left_4
       rect:
         serializedVersion: 2
-        x: 682
-        y: 683.3333
-        width: 682.6667
-        height: 682.6667
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +205,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e51c29479cbd442af8af7c99beb332d4
-      internalID: -518009417
+      spriteID: 1c748d46ff9164acb903e57b135e4eee
+      internalID: -2063716628
       vertices: []
       indices: 
       edges: []
@@ -215,10 +215,10 @@ TextureImporter:
       name: PC_Walking_Left_5
       rect:
         serializedVersion: 2
-        x: 1364
-        y: 683.3333
-        width: 682.6667
-        height: 682.6667
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,8 +226,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0a4ef1d0650d42749676f6b066d97dc
-      internalID: -1047945897
+      spriteID: 03b4f3f660401480398685a668052bdc
+      internalID: -1173187441
       vertices: []
       indices: 
       edges: []
@@ -236,10 +236,10 @@ TextureImporter:
       name: PC_Walking_Left_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1.333313
-        width: 682.6667
-        height: 682.6667
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,8 +247,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9af1e5279443d44c392fe7c32b17a412
-      internalID: -700173567
+      spriteID: 7a25cb7155e5144d4a1c848cef23c09b
+      internalID: -1421804492
       vertices: []
       indices: 
       edges: []
@@ -257,10 +257,10 @@ TextureImporter:
       name: PC_Walking_Left_7
       rect:
         serializedVersion: 2
-        x: 682
-        y: 1.333313
-        width: 682.6667
-        height: 682.6667
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,8 +268,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: badfe2d056e31427fa5a5c7a768a9be9
-      internalID: 1653276782
+      spriteID: e8667114ca3814db182f4a1a5573c6fa
+      internalID: -280139038
       vertices: []
       indices: 
       edges: []
@@ -278,10 +278,10 @@ TextureImporter:
       name: PC_Walking_Left_8
       rect:
         serializedVersion: 2
-        x: 1364
-        y: 1.333313
-        width: 682.6667
-        height: 682.6667
+        x: 512
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,8 +289,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a2b25f29143745e2a7f0bb136efce32
-      internalID: 1852235768
+      spriteID: 5b777458d4c3745eca3d4a84f1215a41
+      internalID: -1624390401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Walking_Left_9
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55d36edccd85474d8733947f9aefae6
+      internalID: -1666460720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Walking_Left_10
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbf44ba5656a441c87a952e3c69cc55
+      internalID: 106995480
       vertices: []
       indices: 
       edges: []
@@ -306,15 +348,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PC_Walking_Left_0: -1633749203
-      PC_Walking_Left_1: 1654549734
-      PC_Walking_Left_2: -207747446
-      PC_Walking_Left_3: 1658347055
-      PC_Walking_Left_4: -518009417
-      PC_Walking_Left_5: -1047945897
-      PC_Walking_Left_6: -700173567
-      PC_Walking_Left_7: 1653276782
-      PC_Walking_Left_8: 1852235768
+      PC_Walking_Left_0: 1933966155
+      PC_Walking_Left_1: -1775571539
+      PC_Walking_Left_10: 106995480
+      PC_Walking_Left_2: -742363689
+      PC_Walking_Left_3: 477479091
+      PC_Walking_Left_4: -2063716628
+      PC_Walking_Left_5: -1173187441
+      PC_Walking_Left_6: -1421804492
+      PC_Walking_Left_7: -280139038
+      PC_Walking_Left_8: -1624390401
+      PC_Walking_Left_9: -1666460720
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
