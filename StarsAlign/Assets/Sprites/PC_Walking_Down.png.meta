@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 18a996b5dfc8648d9a6f79068b868d77
+guid: 4ac8c89070a1d4afc9d5771ccb6f1ced
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -107,190 +107,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PC_Walking_Down_Animation_0
+      name: PC_Walking_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1365.3333
-        width: 682.6667
-        height: 682.6667
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b3fd8d42770b43e0b46d60532e5c59f
-      internalID: 276820993
+      spriteID: 71720d095d5af451d99a0f13150bf659
+      internalID: -877968274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC_Walking_Down_Animation_1
+      name: PC_Walking_Down_1
       rect:
         serializedVersion: 2
-        x: 682
-        y: 1365.3333
-        width: 682.6667
-        height: 682.6667
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62bb46d1c15804cf9bd5ab45aa2007c4
-      internalID: 1051212925
+      spriteID: dc5756ecdd491419daa4745952d22b20
+      internalID: -200451888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC_Walking_Down_Animation_2
+      name: PC_Walking_Down_2
       rect:
         serializedVersion: 2
-        x: 1364
-        y: 1365.3333
-        width: 682.6667
-        height: 682.6667
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2352352a76a1e48ba90a49a8b8a1cf79
-      internalID: -2020790532
+      spriteID: 7a94883e3271e4e7cb90c5f0bb819eb7
+      internalID: -1977500465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC_Walking_Down_Animation_3
+      name: PC_Walking_Down_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 683.3333
-        width: 682.6667
-        height: 682.6667
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fa95c8106e7d40d8b33f98f7c8e0cfe
-      internalID: 969918741
+      spriteID: 078f67ea533584ded9473da80b5d2e17
+      internalID: -193865572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC_Walking_Down_Animation_4
-      rect:
-        serializedVersion: 2
-        x: 682
-        y: 683.3333
-        width: 682.6667
-        height: 682.6667
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbe95dac17a524f13b1bcb8d8b45f048
-      internalID: 1557877850
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC_Walking_Down_Animation_5
-      rect:
-        serializedVersion: 2
-        x: 1364
-        y: 683.3333
-        width: 682.6667
-        height: 682.6667
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b226039acaa3f4d849b7d6872d1fdcb1
-      internalID: 800658885
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC_Walking_Down_Animation_6
+      name: PC_Walking_Down_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 1.333313
-        width: 682.6667
-        height: 682.6667
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d575908194e24fc8b0e32f3da51f7ca
-      internalID: -1696990308
+      spriteID: 547a63370f65e47c8adf8c94d2c6fa5e
+      internalID: 1335637180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC_Walking_Down_Animation_7
+      name: PC_Walking_Down_5
       rect:
         serializedVersion: 2
-        x: 682
-        y: 1.333313
-        width: 682.6667
-        height: 682.6667
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce45267d33b5e4824a6c2073f7976988
-      internalID: 2045205124
+      spriteID: 50011fc877d8e423bb05caa3307a6272
+      internalID: 1065631042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC_Walking_Down_Animation_8
+      name: PC_Walking_Down_6
       rect:
         serializedVersion: 2
-        x: 1364
-        y: 1.333313
-        width: 682.6667
-        height: 682.6667
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf1f7f07aa53c4372a29337d15c33b64
-      internalID: 405779277
+      spriteID: e06dc69be910b42f5bda35d296b722ea
+      internalID: 668532080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Walking_Down_7
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4044210230d9c4d489f8b4b8af8e063a
+      internalID: 1306243789
       vertices: []
       indices: 
       edges: []
@@ -306,15 +285,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PC_Walking_Down_Animation_0: 276820993
-      PC_Walking_Down_Animation_1: 1051212925
-      PC_Walking_Down_Animation_2: -2020790532
-      PC_Walking_Down_Animation_3: 969918741
-      PC_Walking_Down_Animation_4: 1557877850
-      PC_Walking_Down_Animation_5: 800658885
-      PC_Walking_Down_Animation_6: -1696990308
-      PC_Walking_Down_Animation_7: 2045205124
-      PC_Walking_Down_Animation_8: 405779277
+      PC_Walking_Down_0: -877968274
+      PC_Walking_Down_1: -200451888
+      PC_Walking_Down_2: -1977500465
+      PC_Walking_Down_3: -193865572
+      PC_Walking_Down_4: 1335637180
+      PC_Walking_Down_5: 1065631042
+      PC_Walking_Down_6: 668532080
+      PC_Walking_Down_7: 1306243789
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

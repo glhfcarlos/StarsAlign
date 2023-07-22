@@ -31,10 +31,10 @@ public class Balanced : MonoBehaviour
 
   public bool isZero() {
     if(numStars == 0 && numLoverStar == 0) {
-      Debug.Log(" they are zero: True");
+      // Debug.Log(" they are zero: True");
       return true; 
     } else {
-      Debug.Log(" they're NOT zero: False");
+      // Debug.Log(" they're NOT zero: False");
       return false;
     }
   }

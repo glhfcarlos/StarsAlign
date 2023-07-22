@@ -18,7 +18,7 @@ public class SpawnStars : MonoBehaviour
     // }
 
     public void spawnAmount() {
-        Debug.Log("spawning"); 
+        // Debug.Log("spawning"); 
 
     float leftPoint = transform.position.x - heightLoc; 
     float rightPoint = transform.position.x + heightLoc; 
