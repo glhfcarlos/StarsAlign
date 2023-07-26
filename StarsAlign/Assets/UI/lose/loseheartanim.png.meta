@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: aad26b4b18a93419ea716692536559fc
+guid: 24be68bcfe5ce4a17bff24cbc90afc9c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -117,7 +117,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: loseheartanim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 334
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ed57743fc454609981f1d2adc1b7fb
+      internalID: -653982382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loseheartanim_1
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 361
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb0d1c12818b43c68e15c9febc34f1b
+      internalID: -1708912659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loseheartanim_2
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 0
+        width: 377
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c60868dc5d404c618582763f1c86504
+      internalID: -1828037866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loseheartanim_3
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 0
+        width: 346
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5176914, y: 0.49244285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a2e53f40c664debbfdbb5321502a44
+      internalID: 389717686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -128,7 +212,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      loseheartanim_0: -653982382
+      loseheartanim_1: -1708912659
+      loseheartanim_2: -1828037866
+      loseheartanim_3: 389717686
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
