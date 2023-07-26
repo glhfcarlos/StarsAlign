@@ -8,6 +8,9 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb; 
     Vector2 movement; 
     public Animator animator; 
+    public AudioSource audioSource;
+
+    
 
     // Update is called once per frame
     void Update()
@@ -24,7 +27,23 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Horizontal", horizontalInput); 
         animator.SetFloat("Vertical", verticalInput);
         animator.SetFloat("Speed", movement.sqrMagnitude);
+
+        bool isMoving = movement.sqrMagnitude > 0.01f;
+
+    // If the player is moving and the audio is not playing, start playing the footsteps sound
+    if (isMoving && !audioSource.isPlaying)
+    {
+        audioSource.Play();
     }
+    // If the player is not moving and the audio is playing, stop the footsteps sound
+    else if (!isMoving && audioSource.isPlaying)
+    {
+        audioSource.Stop();
+    }
+
+    }
+
+    
 
     void FixedUpdate()
     {
