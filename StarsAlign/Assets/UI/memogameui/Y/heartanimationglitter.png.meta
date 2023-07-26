@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a0330bc6053df41f19d506dc8d2487d2
+guid: cf343e977f0814ecab16db764cec2ab8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -117,7 +117,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: heartanimationglitter_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 244
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ef68370d912450987c03c7cac5dcf9
+      internalID: 1274019033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartanimationglitter_1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 371
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e374d101db54ea2ba5ca398d1f4304
+      internalID: -805577051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartanimationglitter_2
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 0
+        width: 396
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e7995b3c4cb410099b6f23216b4e1c
+      internalID: 1996677243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartanimationglitter_3
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 0
+        width: 402
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14d0d79c5a934ec9a5cfb357d91140d
+      internalID: -1280135342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -128,7 +212,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      heartanimationglitter_0: 1274019033
+      heartanimationglitter_1: -805577051
+      heartanimationglitter_2: 1996677243
+      heartanimationglitter_3: -1280135342
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
