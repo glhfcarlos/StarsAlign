@@ -2701,7 +2701,7 @@ PrefabInstance:
     - target: {fileID: 7361085772339066264, guid: 1b0e327dc8086407bbc73d6b9d2eae59, type: 3}
       propertyPath: smashEffect
       value: 
-      objectReference: {fileID: 6135945229055224106, guid: fe8a1904ffc144ad7a9f7892a5377e36, type: 3}
+      objectReference: {fileID: 5135821142398553041, guid: fe8a1904ffc144ad7a9f7892a5377e36, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2722,7 +2722,7 @@ PrefabInstance:
     - target: {fileID: 6558250627873966588, guid: 79df875abcf4149998f8187f708dd4f9, type: 3}
       propertyPath: smashEffect
       value: 
-      objectReference: {fileID: 6135945229055224106, guid: fe8a1904ffc144ad7a9f7892a5377e36, type: 3}
+      objectReference: {fileID: 4189885937968585519, guid: f3f4d6ea9dc854fa6b775fb6cab55e79, type: 3}
     - target: {fileID: 7348957423794649844, guid: 79df875abcf4149998f8187f708dd4f9, type: 3}
       propertyPath: m_Name
       value: playerStar
