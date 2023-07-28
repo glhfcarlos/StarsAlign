@@ -111,18 +111,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 781.5
-        width: 762.6667
-        height: 781.5
+        y: 1309
+        width: 763
+        height: 683
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31c49a940bac2446cb4c33599d5766c3
-      internalID: -582317406
+      spriteID: d38862e2caf894e36abd4e66a73b50d4
+      internalID: -2091932335
       vertices: []
       indices: 
       edges: []
@@ -131,19 +131,19 @@ TextureImporter:
       name: pop_1
       rect:
         serializedVersion: 2
-        x: 762
-        y: 781.5
-        width: 762.6667
-        height: 781.5
+        x: 765
+        y: 1303
+        width: 692
+        height: 692
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 3, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f775846f0fd8945e1970340780702b5e
-      internalID: 150880182
+      spriteID: db584cb4005fe4bebb639e1063a2db14
+      internalID: 552228944
       vertices: []
       indices: 
       edges: []
@@ -152,19 +152,19 @@ TextureImporter:
       name: pop_2
       rect:
         serializedVersion: 2
-        x: 1524
-        y: 781.5
-        width: 762.6667
-        height: 781.5
+        x: 1460
+        y: 1330
+        width: 826
+        height: 665
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e68d944de358a4d22a20841612b3e55b
-      internalID: -866180861
+      spriteID: 93a9001a7044746b58fcd6489dc6ff97
+      internalID: 182080042
       vertices: []
       indices: 
       edges: []
@@ -173,19 +173,103 @@ TextureImporter:
       name: pop_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0.5
-        width: 762.6667
-        height: 781.5
+        x: 9
+        y: 701
+        width: 763
+        height: 593
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fefd09c0fe31481cabf69fa105a83b4
-      internalID: -1781427210
+      spriteID: 5b7246567152844988358c95047024f2
+      internalID: -1812797458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop_4
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 649
+        width: 691
+        height: 651
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a146ac8e33e0643f0ac2db7fdc66b7f3
+      internalID: 1050197796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop_5
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 578
+        width: 822
+        height: 752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094ce870df64d45cc9ff67aba45dccb5
+      internalID: -1753214693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 763
+        height: 701
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc4128576a824c36b4daf086d5bc524
+      internalID: -1552623121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pop_7
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 0
+        width: 763
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4817ab0b633a4996bfe83173c0e5c38
+      internalID: -1666334043
       vertices: []
       indices: 
       edges: []
@@ -201,10 +285,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pop_0: -582317406
-      pop_1: 150880182
-      pop_2: -866180861
-      pop_3: -1781427210
+      pop_0: -2091932335
+      pop_1: 552228944
+      pop_2: 182080042
+      pop_3: -1812797458
+      pop_4: 1050197796
+      pop_5: -1753214693
+      pop_6: -1552623121
+      pop_7: -1666334043
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

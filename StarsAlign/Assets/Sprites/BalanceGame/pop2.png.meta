@@ -111,9 +111,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1330
-        width: 762.6667
-        height: 665
+        y: 511
+        width: 528
+        height: 511
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,8 +121,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56a7d0780f9204dbcab10993fc4b5e08
-      internalID: -74144206
+      spriteID: c0056e7477ea7426cb9cbefeec432370
+      internalID: 1878794489
       vertices: []
       indices: 
       edges: []
@@ -131,10 +131,10 @@ TextureImporter:
       name: pop2_1
       rect:
         serializedVersion: 2
-        x: 762
-        y: 1330
-        width: 762.6667
-        height: 665
+        x: 528
+        y: 511
+        width: 528
+        height: 511
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,8 +142,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9a240e75ad4a46e7875dea94c0dda73
-      internalID: 71378126
+      spriteID: 910ff44b593ff4a988557b19a48925bc
+      internalID: -1545417742
       vertices: []
       indices: 
       edges: []
@@ -152,10 +152,10 @@ TextureImporter:
       name: pop2_2
       rect:
         serializedVersion: 2
-        x: 1524
-        y: 1330
-        width: 762.6667
-        height: 665
+        x: 1056
+        y: 511
+        width: 528
+        height: 511
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,8 +163,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78359c33cfb6549c08a252f8a9f6d106
-      internalID: -911381979
+      spriteID: 9bb19a657a49b4867b93f4171b3f4edf
+      internalID: -1631028680
       vertices: []
       indices: 
       edges: []
@@ -174,72 +174,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 665
-        width: 762.6667
-        height: 665
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91f44be37f132445590c06fe61dd5acc
-      internalID: 1676438533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pop2_4
-      rect:
-        serializedVersion: 2
-        x: 762
-        y: 665
-        width: 762.6667
-        height: 665
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 720f44ad68f184a2bac81b3b5db41b34
-      internalID: -87202401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pop2_5
-      rect:
-        serializedVersion: 2
-        x: 1524
-        y: 665
-        width: 762.6667
-        height: 665
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e063aefb096594b86945e38dbc0c4f19
-      internalID: -1410769453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pop2_6
-      rect:
-        serializedVersion: 2
-        x: 0
         y: 0
-        width: 762.6667
-        height: 665
+        width: 528
+        height: 511
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,8 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cff3ac970b3794d99ab81eb903e0c774
-      internalID: 356079121
+      spriteID: 07dcf1c84c5e34f58bb24d5cfab61ffd
+      internalID: 127520771
       vertices: []
       indices: 
       edges: []
@@ -264,13 +201,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pop2_0: -74144206
-      pop2_1: 71378126
-      pop2_2: -911381979
-      pop2_3: 1676438533
-      pop2_4: -87202401
-      pop2_5: -1410769453
-      pop2_6: 356079121
+      pop2_0: 1878794489
+      pop2_1: -1545417742
+      pop2_2: -1631028680
+      pop2_3: 127520771
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PStarPop : MonoBehaviour
 {
-   // public GameObject SmashEffect;
+   public GameObject SmashEffect;
     
 
     void Update() {
@@ -26,7 +26,7 @@ public class PStarPop : MonoBehaviour
     {
       // Debug.Log("Destroyed"); 
       Destroy(gameObject); 
-    //   Instantiate(SmashEffect, transform.position, Quaternion.identity); 
+      Instantiate(SmashEffect, transform.position, Quaternion.identity); 
     }
 
     // public void destroyStar() {
