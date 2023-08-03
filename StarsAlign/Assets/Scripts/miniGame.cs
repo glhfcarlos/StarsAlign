@@ -24,23 +24,31 @@ public class MiniGame : MonoBehaviour
     public string failSceneName;
 
 
+    void OnEnable()
+{
+    Debug.Log("enable being called");
+    level = 0; // we set everything to zero because the method gets called when restarting
+    buttonsclicked = 0;
+    colorOrderRunCount = -1;
+    won = false;
 
+    // Using HashSet<int> to keep track of unique indices for lightOrder
+    HashSet<int> uniqueIndices = new HashSet<int>();
 
-
-    void OnEnable() // get called everytime the pannel get enabled // a placed when we want to reset the game and start fresh  
+    while (uniqueIndices.Count < lightOrder.Length)
     {
-        Debug.Log("enable being called");
-        level = 0; // we set everthing to zero because method gets called when restart 
-        buttonsclicked = 0;
-        colorOrderRunCount = -1;
-        won = false;
-        for (int i = 0; i < lightOrder.Length; i++) // this loop gives us a random order of lights 
+        int randomIndex = Random.Range(0, lightsArray.Length);
+        if (!uniqueIndices.Contains(randomIndex))
         {
-            lightOrder[i] = Random.Range(0, 3); // this gives us our new light order 
+            uniqueIndices.Add(randomIndex);
+            lightOrder[uniqueIndices.Count - 1] = randomIndex;
         }
-        level = 1; // since this methods gets called after the level starts at one 
-        StartCoroutine(ColorOrder());
     }
+
+    level = 1; // since this method gets called after the level starts at one
+    StartCoroutine(ColorOrder());
+}
+
 
     public void ButtonClickOrder(int button) // this is to check if we are click the correct pattern  
     {
