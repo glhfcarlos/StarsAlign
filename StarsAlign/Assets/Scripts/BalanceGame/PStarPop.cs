@@ -1,27 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem; 
 
 public class PStarPop : MonoBehaviour
 {
    public GameObject SmashEffect;
     
 
-    void Update() {
-        if(Input.GetButtonDown("Xbox_LB")) {
-          Debug.Log("Xbox Left Bumber button clicked"); 
-        }
-
-      if(Input.GetButton("Xbox_Y")) {
-        Debug.Log("Xbox Y clicked"); 
-      }
-
-       if(Input.GetButtonDown("Xbox_A")) {
-        Debug.Log("Xbox A clicked"); 
-      }
-
-    }
-
+private void OnPop() {
+  Debug.Log("left Pressed " ); 
+  OnMouseDown(); 
+}
      void OnMouseDown()
     {
       // Debug.Log("Destroyed"); 
