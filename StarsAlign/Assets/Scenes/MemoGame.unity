@@ -294,8 +294,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 6.083313, y: -5.4419556}
-  m_SizeDelta: {x: 1120, y: 630}
+  m_AnchoredPosition: {x: 3, y: -5.4419556}
+  m_SizeDelta: {x: 1155.5, y: 630}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &132693367
 Animator:
@@ -470,7 +470,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!95 &489201583
+--- !u!95 &489201577
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -1615,6 +1615,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8701206833451000380, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701206833451000380, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
       propertyPath: m_SpriteState.m_PressedSprite
       value: 
       objectReference: {fileID: 21300000, guid: b1162fad40e674b1ea71834b87fb7472, type: 3}
@@ -1694,7 +1698,7 @@ PrefabInstance:
       addedObject: {fileID: 489201576}
     - targetCorrespondingSourceObject: {fileID: 6430472842156850103, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 489201583}
+      addedObject: {fileID: 489201577}
     - targetCorrespondingSourceObject: {fileID: 3044318695434717514, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
       insertIndex: -1
       addedObject: {fileID: 98000582}
