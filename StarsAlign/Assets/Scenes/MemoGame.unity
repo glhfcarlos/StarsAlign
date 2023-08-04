@@ -294,8 +294,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 6.083313, y: -5.4419556}
-  m_SizeDelta: {x: 1120, y: 630}
+  m_AnchoredPosition: {x: 3, y: -5.4419556}
+  m_SizeDelta: {x: 1155.5, y: 630}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &132693367
 Animator:
@@ -470,7 +470,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!95 &489201583
+--- !u!95 &489201577
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -1615,6 +1615,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8701206833451000380, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701206833451000380, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
       propertyPath: m_SpriteState.m_PressedSprite
       value: 
       objectReference: {fileID: 21300000, guid: b1162fad40e674b1ea71834b87fb7472, type: 3}
@@ -1650,20 +1654,20 @@ PrefabInstance:
       insertIndex: 0
       addedObject: {fileID: 1354928761}
     - targetCorrespondingSourceObject: {fileID: 5853671458220764490, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
-      insertIndex: 5
-      addedObject: {fileID: 1661449598}
+      insertIndex: 1
+      addedObject: {fileID: 1713139537}
     - targetCorrespondingSourceObject: {fileID: 5853671458220764490, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
       insertIndex: 6
-      addedObject: {fileID: 1758424237}
+      addedObject: {fileID: 1661449598}
     - targetCorrespondingSourceObject: {fileID: 5853671458220764490, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
       insertIndex: 7
-      addedObject: {fileID: 1487427000}
+      addedObject: {fileID: 1758424237}
     - targetCorrespondingSourceObject: {fileID: 5853671458220764490, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
       insertIndex: 8
-      addedObject: {fileID: 577523450}
+      addedObject: {fileID: 1487427000}
     - targetCorrespondingSourceObject: {fileID: 5853671458220764490, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1713139537}
+      insertIndex: 9
+      addedObject: {fileID: 577523450}
     - targetCorrespondingSourceObject: {fileID: 5853671458220764490, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
       insertIndex: -1
       addedObject: {fileID: 132693366}
@@ -1694,7 +1698,7 @@ PrefabInstance:
       addedObject: {fileID: 489201576}
     - targetCorrespondingSourceObject: {fileID: 6430472842156850103, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 489201583}
+      addedObject: {fileID: 489201577}
     - targetCorrespondingSourceObject: {fileID: 3044318695434717514, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
       insertIndex: -1
       addedObject: {fileID: 98000582}
@@ -2308,7 +2312,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -17.1, y: -57.5}
+  m_AnchoredPosition: {x: -23.6, y: -59}
   m_SizeDelta: {x: 245.7655, y: 245.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1713139538
