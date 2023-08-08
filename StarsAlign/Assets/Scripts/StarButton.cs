@@ -17,16 +17,16 @@ public class starbutton : MonoBehaviour
 
     public void LoadNextLevel()
     {
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 10));
+        StartCoroutine(LoadLevel());
     }
 
-    IEnumerator LoadLevel(int levelIndex)
+    IEnumerator LoadLevel()
     {
         transition.SetTrigger("Start");
 
         yield return new WaitForSeconds(transitionTime);
 
-        SceneManager.LoadScene(levelIndex);
+        SceneManager.LoadScene("IntroAnim");
     }
 }
 
