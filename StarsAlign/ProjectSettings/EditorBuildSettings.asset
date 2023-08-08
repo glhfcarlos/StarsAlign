@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScreen.unity
     guid: 3bd9e027cac624a4ca161ed7284b7926
   - enabled: 1
+    path: Assets/Scenes/demomemo.unity
+    guid: d8d0ed0c2aa4d49b89f4271f3161ec1e
+  - enabled: 1
     path: Assets/Scenes/World.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -20,9 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Winpopup.unity
     guid: 7046fa718d83f4fdc984d0bef1bc3f4a
-  - enabled: 0
-    path: Assets/Scenes/Testing.unity
-    guid: 46b0879685b444514922697eb07eaf1f
   - enabled: 1
     path: Assets/Scenes/BalanceGame.unity
     guid: b4df2dc83fdc14c1db5685b7e766a719
@@ -41,8 +41,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IntroAnim.unity
     guid: 8d71a061451b24c93853af83f0a863df
-  - enabled: 1
-    path: Assets/Scenes/demomemo.unity
-    guid: d8d0ed0c2aa4d49b89f4271f3161ec1e
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 23e398305623f4a2dadf5d0f6ae23660, type: 2}
