@@ -479,7 +479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd76024ed3ea9456aa2ec129a579eb44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: BalanceGame
+  SceneName: Balancememo
 --- !u!114 &808038386
 MonoBehaviour:
   m_ObjectHideFlags: 0
