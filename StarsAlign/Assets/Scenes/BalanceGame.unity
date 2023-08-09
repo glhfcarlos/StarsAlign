@@ -722,10 +722,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 337698639}
+  - {fileID: 1280353939}
   - {fileID: 1054317899}
   - {fileID: 619977490}
   - {fileID: 105990982}
-  - {fileID: 1280353939}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
