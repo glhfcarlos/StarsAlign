@@ -52,19 +52,24 @@ public class MiniGame : MonoBehaviour
 
     public void ButtonClickOrder(int button) // this is to check if we are click the correct pattern  
     {
+        
         buttonsclicked++;
+
+        Debug.Log(button + " cliked btn num");
+        Debug.Log(lightOrder[buttonsclicked -1 ] + " light num"); 
+        
         if (button == lightOrder[buttonsclicked - 1]) // if the button number is the equal to the light order 
         {
-            Debug.Log("pass"); // then you pass
+            // Debug.Log("pass"); // then you pass
             passed = true;
         }
         else
         {
-            Debug.Log("failed"); // else you failed 
+            // Debug.Log("failed"); // else you failed 
             won = false;
             passed = false;
             StartCoroutine(ColorBlink(red));// this calls the fucntion for it to blink red for the user to know they failed
-            Debug.Log("end");
+            // Debug.Log("end");
             SceneManager.LoadScene(failSceneName);
         }
         if (buttonsclicked == level && passed == true && buttonsclicked != 5)
@@ -75,13 +80,13 @@ public class MiniGame : MonoBehaviour
         }
         if (buttonsclicked == level && passed == true && buttonsclicked == 5) // if true you win the game 
         {
-            Debug.Log("failed");
+            // Debug.Log("failed");
             won = true; 
             StartCoroutine(ColorBlink(green));
         } 
         if (level > 4)
         {
-           Debug.Log("end");
+        //    Debug.Log("end");
             SceneManager.LoadScene(worldSceneName); // Load the World scene if index is out of bounds
          }
     }
@@ -93,7 +98,7 @@ public class MiniGame : MonoBehaviour
         DisableInteractableButtons();
         for (int j = 0; j < 3; j++) // run three times for the three blinks of red
         {
-            Debug.Log("RUN " + j);
+            // Debug.Log("RUN " + j);
             for (int i = 0; i < buttons.Length; i++)
             {
                 buttons[i].GetComponent<Image>().color = colorToBlink;
@@ -107,7 +112,7 @@ public class MiniGame : MonoBehaviour
         }
         if (won == true)
         {
-            Debug.Log("won stuffs aqui");
+            // Debug.Log("won stuffs aqui");
             
         }
         EnableInteractableButtons();
@@ -116,7 +121,7 @@ public class MiniGame : MonoBehaviour
 
     IEnumerator ColorOrder() // 
     {
-        Debug.Log("Color Order should falsh from being called"); 
+        // Debug.Log("Color Order should falsh from being called"); 
         buttonsclicked = 0; // if clicked 
         colorOrderRunCount++;
         DisableInteractableButtons(); //disables the interactible buttons 
@@ -132,7 +137,7 @@ public class MiniGame : MonoBehaviour
             }
         }
         EnableInteractableButtons();
-        Debug.Log("End of ColorOder method");
+        // Debug.Log("End of ColorOder method");
     }
 
     void DisableInteractableButtons() // this is what disabled all the buttons from being pressed 
