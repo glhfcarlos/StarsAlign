@@ -502,7 +502,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: maybe next time.
+  m_text: Balance is Key
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6dba7e38bdddd4cb6a868544dd9df2ad, type: 2}
   m_sharedMaterial: {fileID: -5411071157786247273, guid: 6dba7e38bdddd4cb6a868544dd9df2ad, type: 2}
