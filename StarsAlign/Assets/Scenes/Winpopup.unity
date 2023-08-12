@@ -1134,8 +1134,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000061035, y: 43}
-  m_SizeDelta: {x: 338.2037, y: 89.269104}
+  m_AnchoredPosition: {x: 55, y: 78}
+  m_SizeDelta: {x: 338.2037, y: 132.0488}
   m_Pivot: {x: 0.49999985, y: 0.5}
 --- !u!114 &1666729767
 MonoBehaviour:
@@ -1157,7 +1157,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You Won!
+  m_text: One Step Closer
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6dba7e38bdddd4cb6a868544dd9df2ad, type: 2}
   m_sharedMaterial: {fileID: -5411071157786247273, guid: 6dba7e38bdddd4cb6a868544dd9df2ad, type: 2}
@@ -1191,7 +1191,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1220,7 +1220,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000015258789, y: 0, z: -0.5245056, w: 0}
+  m_margin: {x: -148.7994, y: 0, z: -36.62973, w: -8.266602}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
