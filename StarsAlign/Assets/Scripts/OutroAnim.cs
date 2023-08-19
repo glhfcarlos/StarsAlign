@@ -12,7 +12,7 @@ public class OutroAnim : MonoBehaviour
     }
 
     bool isPlaying() {
-        if( animator.GetCurrentAnimatorStateInfo(0).IsName("OutroAnima") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f) {
+        if( animator.GetCurrentAnimatorStateInfo(0).IsName("OutroAnim") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f) {
             return true; 
         } else {
             return false;
