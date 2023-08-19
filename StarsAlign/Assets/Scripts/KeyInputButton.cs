@@ -21,7 +21,7 @@ public class KeyInputButton : MonoBehaviour
     private void Update()
     {
         // Check if the target key is pressed
-        if (Input.GetKeyDown(targetKey))
+        if (Input.GetKeyDown(targetKey) )
         {
             // Invoke the button's onClick event
             button.onClick.Invoke();
