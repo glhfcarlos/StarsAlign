@@ -159,8 +159,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 204}
-  m_SizeDelta: {x: 184.8173, y: 163.172}
+  m_AnchoredPosition: {x: 0.0000017881, y: 88.433}
+  m_SizeDelta: {x: 74.6819, y: 65.9354}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &126644019
 Animator:
@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -415,8 +415,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -500,8 +500,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 692.9412, y: 812.6206}
+  m_AnchoredPosition: {x: -1, y: 6}
+  m_SizeDelta: {x: 280.0071, y: 328.3676}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &479767182
 MonoBehaviour:
@@ -652,8 +652,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 57}
-  m_SizeDelta: {x: 260.7541, y: 91.2061}
+  m_AnchoredPosition: {x: -0.000002861, y: 15.193}
+  m_SizeDelta: {x: 248.2802, y: 80.5449}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &739305324
 MonoBehaviour:
@@ -702,8 +702,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -738,7 +738,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -148.79944, y: -18.186646, z: -130.61292, w: 0.31843567}
+  m_margin: {x: -0.91561884, y: -0.7244647, z: -0.23398589, w: 0.31843567}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -837,8 +837,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1130,8 +1130,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000061035, y: -113}
-  m_SizeDelta: {x: 284.1605, y: 93.9373}
+  m_AnchoredPosition: {x: -1.0001202, y: -39.6616}
+  m_SizeDelta: {x: 114.825, y: 37.9587}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &975269257
 MonoBehaviour:
@@ -1177,7 +1177,7 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 21300000, guid: c8ef80a8cbf1146a9872ab2204bab948, type: 3}
-    m_SelectedSprite: {fileID: 21300000, guid: c8ef80a8cbf1146a9872ab2204bab948, type: 3}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -1438,8 +1438,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000045776, y: -234}
-  m_SizeDelta: {x: 284.1605, y: 93.9373}
+  m_AnchoredPosition: {x: -1.0000896, y: -88.55587}
+  m_SizeDelta: {x: 114.825, y: 37.9587}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1883133022
 MonoBehaviour:
@@ -1485,7 +1485,7 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 21300000, guid: c8ef80a8cbf1146a9872ab2204bab948, type: 3}
-    m_SelectedSprite: {fileID: 21300000, guid: c8ef80a8cbf1146a9872ab2204bab948, type: 3}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
