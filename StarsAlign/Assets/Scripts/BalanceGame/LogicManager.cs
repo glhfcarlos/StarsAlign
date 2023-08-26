@@ -23,12 +23,12 @@ public class LogicManager : MonoBehaviour
     // bool isPlaying = false; 
 
   public SpawnStars loverSpawn; 
-  public SpawnStars playerSpawn; 
+  public SpawnStarsP playerSpawn; 
   public PStarPop killPStars; 
   public PStarPop killLovStars; 
 
   void Awake() {
-    playerSpawn = GameObject.FindGameObjectWithTag("pSpawn").GetComponent<SpawnStars>();
+    playerSpawn = GameObject.FindGameObjectWithTag("pSpawn").GetComponent<SpawnStarsP>();
     loverSpawn = GameObject.FindGameObjectWithTag("loSpawn").GetComponent<SpawnStars>();
     killPStars = GameObject.FindGameObjectWithTag("pStar").GetComponent<PStarPop>(); 
     killLovStars = GameObject.FindGameObjectWithTag("loverStar").GetComponent<PStarPop>(); 
