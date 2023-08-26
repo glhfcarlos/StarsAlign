@@ -22,7 +22,7 @@ public class MiniGame : MonoBehaviour
     public float lightspeed; // so you can change the light order since light order was set to 1/2 sec
     public string worldSceneName;
     public string failSceneName;
-
+    public bool disableBtn; 
 
     void OnEnable()
 {
@@ -142,6 +142,7 @@ public class MiniGame : MonoBehaviour
 
     void DisableInteractableButtons() // this is what disabled all the buttons from being pressed 
     {
+        disableBtn = true; 
         for (int i = 0; i < buttons.Length; i++)
         {
             buttons[i].GetComponent<Button>().interactable = false;
@@ -150,6 +151,7 @@ public class MiniGame : MonoBehaviour
 
     void EnableInteractableButtons() // this disables button back on to be interactive 
     {
+        disableBtn = false; 
         for (int i = 0; i < buttons.Length; i++)
         {
             buttons[i].GetComponent<Button>().interactable = true;
