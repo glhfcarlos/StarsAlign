@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnStars : MonoBehaviour
+public class SpawnStarsP : MonoBehaviour
 {
     public GameObject stars; 
     public float heightLoc = 1; 
@@ -23,7 +23,7 @@ public class SpawnStars : MonoBehaviour
     float leftPoint = transform.position.x - heightLoc; 
     float rightPoint = transform.position.x + heightLoc; 
 
-    numStars = Random.Range(4, 8); 
+    numStars = Random.Range(6, 15); 
 
     for(int i = 0; i <= numStars; i++ )
         Instantiate(stars, new Vector3(Random.Range(leftPoint, rightPoint), transform.position.y,0), transform.rotation); 

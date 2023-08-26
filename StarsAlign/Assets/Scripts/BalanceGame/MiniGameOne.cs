@@ -6,6 +6,7 @@ public class MiniGameOne : MonoBehaviour
 {
     PlayerControlsOne controls; 
     public Animator anim; 
+    public ButtonSoundPlayer sound; 
     public MiniGame miniGame; 
 
     void Awake() {
@@ -26,6 +27,7 @@ public class MiniGameOne : MonoBehaviour
 
     void Up() {
         Debug.Log("Up pressed"); 
+        sound.PlaySoundOnClick(); 
         anim.SetTrigger("Highlighted"); 
         anim.SetTrigger("Pressed"); 
         anim.SetTrigger("Selected"); 

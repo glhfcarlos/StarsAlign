@@ -330,6 +330,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 98000593}
   miniGame: {fileID: 955964202}
+  sound: {fileID: 98000610}
+--- !u!114 &98000610 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5537434457516876492, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
+  m_PrefabInstance: {fileID: 954999248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98000580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9c8214d1b15492baa927282dea0990, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &132693365
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,6 +647,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 489201577}
   miniGame: {fileID: 955964202}
+  sound: {fileID: 489201593}
+--- !u!114 &489201593 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2295068034315229028, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
+  m_PrefabInstance: {fileID: 954999248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489201570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9c8214d1b15492baa927282dea0990, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &577523449
 GameObject:
   m_ObjectHideFlags: 0
@@ -986,6 +1010,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 763113972}
   miniGame: {fileID: 955964202}
+  sound: {fileID: 763113988}
+--- !u!114 &763113988 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1403037233905620138, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
+  m_PrefabInstance: {fileID: 954999248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763113959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9c8214d1b15492baa927282dea0990, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &954999248
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2171,7 +2207,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1211977183}
+  sound: {fileID: 1211977199}
   miniGame: {fileID: 955964202}
+--- !u!114 &1211977199 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1337750518629541075, guid: 3037b036e631a437bb72f8038cfc6f21, type: 3}
+  m_PrefabInstance: {fileID: 954999248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211977146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9c8214d1b15492baa927282dea0990, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1354928760
 GameObject:
   m_ObjectHideFlags: 0
