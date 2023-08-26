@@ -7,6 +7,8 @@ public class ButtonRight : MonoBehaviour
    PlayerControlsOne controls; 
     public Animator anim; 
     public MiniGame miniGame; 
+    public ButtonSoundPlayer sound; 
+
 
     void Awake() {
         controls = new PlayerControlsOne(); 
@@ -23,6 +25,7 @@ public class ButtonRight : MonoBehaviour
     }
 
     void Right() {
+        sound.PlaySoundOnClick(); 
          anim.SetTrigger("Highlighted"); 
         anim.SetTrigger("Pressed"); 
         anim.SetTrigger("Selected"); 

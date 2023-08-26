@@ -1715,7 +1715,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 835476570}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c03437db3a6fe4945a1e06614ba7d393, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a48179ceb3fb4c498d3a5f60afe168e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   stars: {fileID: 260986724978709076, guid: 79df875abcf4149998f8187f708dd4f9, type: 3}
@@ -2678,7 +2678,7 @@ MonoBehaviour:
   winScene: BalanceWin
   lostScene: BalanceFail
   loverSpawn: {fileID: 2142115250}
-  playerSpawn: {fileID: 835476572}
+  playerSpawn: {fileID: 0}
   killPStars: {fileID: 8736865197830385706, guid: 1b0e327dc8086407bbc73d6b9d2eae59, type: 3}
   killLovStars: {fileID: 8626828388682217956, guid: 79df875abcf4149998f8187f708dd4f9, type: 3}
 --- !u!1 &1656404962
