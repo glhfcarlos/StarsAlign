@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.00002408}
-  m_SizeDelta: {x: 692.9797, y: 812.2769}
+  m_AnchoredPosition: {x: 4, y: -0.0000047684}
+  m_SizeDelta: {x: 299.1244, y: 350.6189}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &107421587
 MonoBehaviour:
@@ -236,8 +236,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000010014, y: -188}
-  m_SizeDelta: {x: 282.4976, y: 154.2021}
+  m_AnchoredPosition: {x: 4.000002, y: -75.49903}
+  m_SizeDelta: {x: 117.9563, y: 64.3868}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &186642301
 MonoBehaviour:
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd76024ed3ea9456aa2ec129a579eb44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: demomemo
+  SceneName: Memodescription
 --- !u!114 &186642302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -381,8 +381,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 64}
-  m_SizeDelta: {x: 540.5945, y: 92.5477}
+  m_AnchoredPosition: {x: 4, y: 27}
+  m_SizeDelta: {x: 213.7744, y: 74.8324}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &306784428
 MonoBehaviour:
@@ -431,14 +431,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -700,7 +700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}

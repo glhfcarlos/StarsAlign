@@ -14,7 +14,7 @@ public class ButtonSoundPlayer : MonoBehaviour
         yourButton.onClick.AddListener(PlaySoundOnClick);
     }
 
-    private void PlaySoundOnClick()
+    public void PlaySoundOnClick()
     {
         // If audioSource is not null and is not currently playing, play the sound
         if (audioSource != null && !isPlaying)
