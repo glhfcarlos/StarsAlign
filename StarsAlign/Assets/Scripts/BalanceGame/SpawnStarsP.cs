@@ -23,7 +23,7 @@ public class SpawnStarsP : MonoBehaviour
     float leftPoint = transform.position.x - heightLoc; 
     float rightPoint = transform.position.x + heightLoc; 
 
-    numStars = Random.Range(6, 15); 
+    numStars = Random.Range(6, 12); 
 
     for(int i = 0; i <= numStars; i++ )
         Instantiate(stars, new Vector3(Random.Range(leftPoint, rightPoint), transform.position.y,0), transform.rotation); 
