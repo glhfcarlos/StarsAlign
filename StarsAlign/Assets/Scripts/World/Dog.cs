@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class Dog : MonoBehaviour
 {
-    public Transform player; // Reference to the player's transform
-    public float detectionDistance = 5f; // Distance at which the dog detects the player
-    public float runSpeed = 5f; // Speed at which the dog runs away
-    public float returnSpeed = 2f; // Speed at which the dog returns to its original position
+    public Transform player;
+    public float detectionDistance = 5f;
+    public float runSpeed = 5f;
+    public float returnSpeed = 2f;
 
     private Rigidbody2D rb2d;
     private Vector2 originalPosition;
@@ -19,7 +19,7 @@ public class Dog : MonoBehaviour
 
     void Update()
     {
-        if (player == null) // If player is not assigned, find it by its tag
+        if (player == null)
             player = GameObject.FindGameObjectWithTag("Player").transform;
 
         if (player != null)
@@ -32,20 +32,43 @@ public class Dog : MonoBehaviour
                 Vector2 moveDirection = distanceToPlayer.normalized;
                 rb2d.MovePosition(rb2d.position + moveDirection * runSpeed * Time.deltaTime);
                 isRunningAway = true;
+
+                // Ignore collisions with objects tagged as "Tree"
+                GameObject[] trees = GameObject.FindGameObjectsWithTag("Tree");
+                foreach (GameObject tree in trees)
+                {
+                    Collider2D treeCollider = tree.GetComponent<Collider2D>();
+                    if (treeCollider != null)
+                    {
+                        Physics2D.IgnoreCollision(GetComponent<Collider2D>(), treeCollider, true);
+                    }
+                }
             }
             else if (isRunningAway)
             {
-                // If the player is not close and the dog was running away, return to its original position
                 Vector2 moveDirection = (originalPosition - rb2d.position).normalized;
                 rb2d.MovePosition(rb2d.position + moveDirection * returnSpeed * Time.deltaTime);
 
-                // If the dog is close to its original position, stop running away
                 if (Vector2.Distance(rb2d.position, originalPosition) < 0.1f)
+                {
                     isRunningAway = false;
+
+                    // Restore collision detection with objects tagged as "Tree"
+                    GameObject[] trees = GameObject.FindObjectsOfType<GameObject>();
+                    foreach (GameObject tree in trees)
+                    {
+                        Collider2D treeCollider = tree.GetComponent<Collider2D>();
+                        if (treeCollider != null && tree.tag == "Tree")
+                        {
+                            Physics2D.IgnoreCollision(GetComponent<Collider2D>(), treeCollider, false);
+                        }
+                    }
+                }
             }
         }
     }
 }
+
 
 
 
