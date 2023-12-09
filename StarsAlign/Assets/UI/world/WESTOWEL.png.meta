@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 3d7af03609dd14300ad84179db1e2bee
+guid: 73e9ef0c4dfd34d4e8f0b8e3e8593ad2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -143,12 +143,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: owlwestan_0
+      name: WESTOWEL_0
       rect:
         serializedVersion: 2
-        x: 10
+        x: 12
         y: 1
-        width: 110
+        width: 108
         height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -157,17 +157,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e7cfa22c9b94443f9f59207b35a3427
-      internalID: -1443514996
+      spriteID: dd645cb5ec2334f7c9960cb1478c33e8
+      internalID: 2054119135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: owlwestan_1
+      name: WESTOWEL_1
       rect:
         serializedVersion: 2
-        x: 141
+        x: 144
         y: 1
         width: 109
         height: 127
@@ -178,17 +178,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24aacddb8d58d412fa343b82715e503d
-      internalID: -228152794
+      spriteID: 4ff86e9b64a0d4a08b933e91a2c1e6ee
+      internalID: 981765424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: owlwestan_2
+      name: WESTOWEL_2
       rect:
         serializedVersion: 2
-        x: 277
+        x: 280
         y: 1
         width: 107
         height: 127
@@ -199,17 +199,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25b817d76dd18478b90fbddd0461c377
-      internalID: 1326234027
+      spriteID: 20a151438064b4f2f9762caf4447f56a
+      internalID: -889007563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: owlwestan_3
+      name: WESTOWEL_3
       rect:
         serializedVersion: 2
-        x: 408
+        x: 411
         y: 1
         width: 105
         height: 127
@@ -220,17 +220,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a99e7e2cf12a04de98e4006b9685409f
-      internalID: -1702170487
+      spriteID: c745b7966e4b54ba0b8de713e9932587
+      internalID: -572471436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: owlwestan_4
+      name: WESTOWEL_4
       rect:
         serializedVersion: 2
-        x: 533
+        x: 536
         y: 1
         width: 106
         height: 127
@@ -241,8 +241,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52d3156938a0440908314ae1059e1db8
-      internalID: 557215202
+      spriteID: e2b6ee744fed54531bbd309e8fc12fcc
+      internalID: 632165239
       vertices: []
       indices: 
       edges: []
@@ -258,11 +258,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      owlwestan_0: -1443514996
-      owlwestan_1: -228152794
-      owlwestan_2: 1326234027
-      owlwestan_3: -1702170487
-      owlwestan_4: 557215202
+      WESTOWEL_0: 2054119135
+      WESTOWEL_1: 981765424
+      WESTOWEL_2: -889007563
+      WESTOWEL_3: -572471436
+      WESTOWEL_4: 632165239
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
