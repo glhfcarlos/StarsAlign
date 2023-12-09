@@ -6,6 +6,13 @@ public class Message : MonoBehaviour
 {
 
     public GameObject Messagepopup;
+    Animator owlanimation;
+
+
+    private void Start()
+    {
+        owlanimation = gameObject.GetComponent<Animator>(); 
+    }
 
     // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D other)
@@ -14,6 +21,7 @@ public class Message : MonoBehaviour
 
         {
             Messagepopup.SetActive(true);
+            owlanimation.enabled = true;
         }
         
     }
@@ -23,6 +31,7 @@ public class Message : MonoBehaviour
        if (other.gameObject.tag == "Player")
         {
             Messagepopup.SetActive(false);
+            owlanimation.enabled = false;
         }
     }
 
