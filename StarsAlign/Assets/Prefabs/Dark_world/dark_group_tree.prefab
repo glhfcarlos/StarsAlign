@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 6977770733973893405}
   m_Layer: 0
   m_Name: dark_group_tree
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

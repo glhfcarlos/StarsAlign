@@ -13,6 +13,7 @@ TagManager:
   - pSpawn
   - loSpawnn
   - loSpawn
+  - Tree
   layers:
   - Default
   - TransparentFX
