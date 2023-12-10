@@ -1,0 +1,46 @@
+{
+    "name": "VirtualMouseInput",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "e586f5de-bfb4-419e-8011-0f7d45fca4c1",
+            "actions": [
+                {
+                    "name": "Pop",
+                    "type": "Value",
+                    "id": "e30f73b5-f1c7-4faa-8cc9-c29afb98ce5b",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bcdc0324-309c-452d-828b-32f55e7f9b42",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Pop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
