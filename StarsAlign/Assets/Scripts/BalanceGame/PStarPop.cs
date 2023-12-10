@@ -1,17 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem; 
+// using UnityEngine.InputSystem; 
 
 public class PStarPop : MonoBehaviour
 {
    public GameObject SmashEffect;
     
 
-private void OnPop() {
-  Debug.Log("left Pressed " ); 
-  OnMouseDown(); 
-}
+  public void popCurrentStar()
+  {
+    // Debug.Log("pop" ); 
+     Destroy(gameObject); 
+      Instantiate(SmashEffect, transform.position, Quaternion.identity); 
+  }
      void OnMouseDown()
     {
       // Debug.Log("Destroyed"); 
