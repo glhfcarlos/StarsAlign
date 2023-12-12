@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba95fb754e4e84d7fad8151d73211c17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cOllectsOund: {fileID: 8300000, guid: 763b1445eaf79418a9475d116736daed, type: 3}
 --- !u!58 &4676568097328927107
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -144,7 +145,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1599110b2d38244fc81ac7db76697180, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 763b1445eaf79418a9475d116736daed, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
