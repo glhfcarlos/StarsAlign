@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,7 +105,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Triangle_Tree_Sway_(L)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 501
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c898e5fcbed614c36a4187f272066af0
+      internalID: -85600658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Triangle_Tree_Sway_(L)_1
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1000
+        width: 501
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0642216b5f7c241fb9394433dc7b0a70
+      internalID: 333932623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Triangle_Tree_Sway_(L)_2
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1000
+        width: 501
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99057374189a04b90a7ee0354e414c05
+      internalID: -357428576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Triangle_Tree_Sway_(L)_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 501
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f87adeaf5868489e96d7ee04617c4a6
+      internalID: -710219658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Triangle_Tree_Sway_(L)_4
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 500
+        width: 501
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2905274807484253ab84d09f6270888
+      internalID: -1027550796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Triangle_Tree_Sway_(L)_5
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 500
+        width: 501
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca178a73e2cdb47d5bc5c472603abdfe
+      internalID: 1958343125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Triangle_Tree_Sway_(L)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 501
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e06e25f5be5f429a8d7ad48dad58abc
+      internalID: 1870783002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Triangle_Tree_Sway_(L)_7
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 0
+        width: 501
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fd9b5e1227d41aa886f4ee5b41541a
+      internalID: 1637070984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -116,7 +284,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Triangle_Tree_Sway_(L)_0: -85600658
+      Triangle_Tree_Sway_(L)_1: 333932623
+      Triangle_Tree_Sway_(L)_2: -357428576
+      Triangle_Tree_Sway_(L)_3: -710219658
+      Triangle_Tree_Sway_(L)_4: -1027550796
+      Triangle_Tree_Sway_(L)_5: 1958343125
+      Triangle_Tree_Sway_(L)_6: 1870783002
+      Triangle_Tree_Sway_(L)_7: 1637070984
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
