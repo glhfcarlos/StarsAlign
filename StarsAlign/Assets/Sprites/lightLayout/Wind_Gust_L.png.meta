@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a0062ea9b624840ea88dc6070f7cdd93
+guid: 158330395219448c78fb2fc6f88890b9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -107,13 +107,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pine_Tree_Sway_(L)_0
+      name: Wind_Gust_L_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1000
-        width: 501
-        height: 500
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8312af73f828b4343b25bacbd871cff9
-      internalID: -1421851915
+      spriteID: dcdef166a13504ab78fe3963471b5151
+      internalID: -1763763356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pine_Tree_Sway_(L)_1
+      name: Wind_Gust_L_1
       rect:
         serializedVersion: 2
-        x: 501
-        y: 1000
-        width: 501
-        height: 500
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aec16079db52c443485f94e4387589fe
-      internalID: 1288026088
+      spriteID: f161c06769c6240d1be4870b99fa3a42
+      internalID: -478532183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pine_Tree_Sway_(L)_2
+      name: Wind_Gust_L_2
       rect:
         serializedVersion: 2
-        x: 1002
-        y: 1000
-        width: 501
-        height: 500
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dde5acdda71cd4c4789c6e3fc6b58398
-      internalID: -1062868468
+      spriteID: 24389a4719c6f4c40a519b80a262998a
+      internalID: 285151241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pine_Tree_Sway_(L)_3
+      name: Wind_Gust_L_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f270b28bd71438c9832ed19460c556
+      internalID: 1344787759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Gust_L_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 500
-        width: 501
-        height: 500
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 832dd21f573344baa888b4ef742bda08
-      internalID: 1583607584
+      spriteID: 8819c93666d4d4beab4250344571caed
+      internalID: -1032866744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pine_Tree_Sway_(L)_4
+      name: Wind_Gust_L_5
       rect:
         serializedVersion: 2
-        x: 501
-        y: 500
-        width: 501
-        height: 500
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7d689c6ebbf244748c2892854db292b
-      internalID: 11726070
+      spriteID: 7e27d15ad58044f6d912d0a34283d38b
+      internalID: 414070963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pine_Tree_Sway_(L)_5
+      name: Wind_Gust_L_6
       rect:
         serializedVersion: 2
-        x: 1002
-        y: 500
-        width: 501
-        height: 500
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +247,125 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae55af3e23177472cbb949c23dfb3032
-      internalID: -1125816081
+      spriteID: c07b1511b1db54298ae5f0c817f62b36
+      internalID: 953382054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pine_Tree_Sway_(L)_6
+      name: Wind_Gust_L_7
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c535aa766364665a576a0035b95ec1
+      internalID: 1000822615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Gust_L_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009e5a8526e8545869523d2ddd66de4a
+      internalID: -2088798047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Gust_L_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2833b98679c3414aaf5f8b408f3d9ef
+      internalID: -1483555899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Gust_L_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bc174a7871a4f83ae7881b9b6ec1e9
+      internalID: 436007846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Gust_L_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b974100feba40c8942c4fe0168f2bb
+      internalID: 1319096753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Gust_L_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 501
-        height: 500
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,50 +373,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a808b9189d0e54b1dbf70b14643ebf31
-      internalID: -593450500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pine_Tree_Sway_(L)_7
-      rect:
-        serializedVersion: 2
-        x: 501
-        y: 0
-        width: 501
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec73feedd648e4c8a892aeed9a2ec33d
-      internalID: -1388518536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pine_Tree_Sway_(L)_8
-      rect:
-        serializedVersion: 2
-        x: 1002
-        y: 0
-        width: 501
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8f3a47dd9d6d490d857741fd137ae13
-      internalID: 1050899538
+      spriteID: d9d440ab8dfae49c98a00b511a654fc8
+      internalID: -1832050827
       vertices: []
       indices: 
       edges: []
@@ -306,15 +390,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Pine_Tree_Sway_(L)_0: -1421851915
-      Pine_Tree_Sway_(L)_1: 1288026088
-      Pine_Tree_Sway_(L)_2: -1062868468
-      Pine_Tree_Sway_(L)_3: 1583607584
-      Pine_Tree_Sway_(L)_4: 11726070
-      Pine_Tree_Sway_(L)_5: -1125816081
-      Pine_Tree_Sway_(L)_6: -593450500
-      Pine_Tree_Sway_(L)_7: -1388518536
-      Pine_Tree_Sway_(L)_8: 1050899538
+      Wind_Gust_L_0: -1763763356
+      Wind_Gust_L_1: -478532183
+      Wind_Gust_L_10: 436007846
+      Wind_Gust_L_11: 1319096753
+      Wind_Gust_L_12: -1832050827
+      Wind_Gust_L_2: 285151241
+      Wind_Gust_L_3: 1344787759
+      Wind_Gust_L_4: -1032866744
+      Wind_Gust_L_5: 414070963
+      Wind_Gust_L_6: 953382054
+      Wind_Gust_L_7: 1000822615
+      Wind_Gust_L_8: -2088798047
+      Wind_Gust_L_9: -1483555899
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
