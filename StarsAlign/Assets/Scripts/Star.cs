@@ -32,16 +32,16 @@ public class Star : MonoBehaviour
     //         //Play the audio clip
     //         audiOsOurce.Play();
 
-    //         //Destroythe star GameObject
-    //         Destroy(gameObject);
+            // Destroythe star GameObject
+            Destroy(gameObject,1);
         }
     // Debug.Log(gameObject.name);
     // Debug.Log(other.gameObject.name);
  
     }
-void OnTriggerExit2D(Collider2D other)
-{
-    Debug.Log("exit");
-    Destroy(gameObject);
-}
+// void OnTriggerExit2D(Collider2D other)
+// {
+//     Debug.Log("exit");
+//     Destroy(gameObject);
+// }
 }
