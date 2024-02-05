@@ -15,4 +15,6 @@
 # Deployed
 <p>Application was deployed with Itch.io </p>
 
-
+# Live Gameplay
+<p>Please feel free to check out project at itch.io</p>
+<a href="https://gameheads.itch.io/stars-align"> ★ Stars Align ★ </a>
